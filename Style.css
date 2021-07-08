@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+
+body{
+    background-color: indianred;
+}
+
+.calculator{
+    width: 370px;
+    height: 480px;
+    background-color: #4B878BFF;
+
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 10%;
+
+    border-radius: 25px;
+    border: 1px solid black;
+
+}
+
+.fonthead{
+    margin-top: 5px;
+    font-family: 'Chewy', cursive;
+}
+
+.Forcursor tr{
+    cursor: default;
+}
+
+.textinpt{
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 345px;
+    height: 100px;
+    text-align: right;
+    border: none;
+    background-color: rgb(218, 236, 236);
+    font-family: 'Bangers', cursive;
+    font-size: 20px;
+}
+
+.op1{
+    margin-left: 5px;
+    width: 95%;
+    height: 40px;
+    margin-top: 10px;
+    background-color: #D01C1FFF;
+    font-family: 'Bangers', cursive;
+    cursor: default;
+}
+
+
+.btn-keys{
+    border-radius: 25px;
+    color: white;
+
+}
+.btn-keys:hover{
+    color: green
+}
+
+.del{
+    border-radius: 25px;
+    background-color: red;
+    color: white;
+
+}
+
+.oprtrs{
+    background-color: rgb(52, 103, 235);
+    border-radius: 25px;
+    color: white;
+}
+
+.eqls{
+    background-color: rgb(15, 242, 7);
+    border-radius: 150px;
+    color: white;
+    
+}
